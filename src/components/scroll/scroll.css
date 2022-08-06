@@ -1,0 +1,26 @@
+.btn-s {
+  background-color: var(--lightgray);
+  /* padding: 0.5rem; */
+  bottom: 2vh;
+  margin-left: 95%;
+  font-weight: bold;
+  position: fixed;
+
+  border: 10px solid transparent;
+  transition: 300ms all;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: right;
+  z-index: 99;
+}
+
+.btn-s:hover {
+  background-color: var(--orange);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-s {
+    margin-left: 80%;
+  }
+}
